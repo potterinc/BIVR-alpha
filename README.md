@@ -1,1 +1,1 @@
-# Boat Island Virtual Reality (BIVR-alpha)
+# BIVR-alpha
