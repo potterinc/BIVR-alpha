@@ -1,7 +1,4 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-*/
+
 h4,
 h5,
 h6,
@@ -26,6 +23,7 @@ body {
   font-family: 'OpenSans-Regular';
   font-size: 100%;
   background: #ffffff;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -279,6 +277,10 @@ span.menu {
 .caption {
   width: 100%;
   margin-top: 16em;
+}
+.caption a{
+  margin: 20px;
+  border-radius: 30px;
 }
 
 .banner-info {
