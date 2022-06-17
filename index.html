@@ -16,48 +16,11 @@
     <meta name="description" content="">
     <script
         type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-
     <script src="js/jquery.min.js"></script>
-
 </head>
 
 <body>
-    <!-- header -->
-    <div class="top-banner">
-        <div class="banner-info">
-            <div class="container">
-                <div class="logo">
-
-                    <h1>
-                        <img src="images/logo.jpeg" alt="bivr-alpah-logo" height="45px">
-                        <a href="index.html">BIVR-&alpha;</a>
-                    </h1>
-                </div>
-                <div class="top-menu">
-                    <span class="menu"></span>
-                    <ul class="nav1">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="reviews.html">Reviews</a></li>
-                        <li><a href="typo.html">News</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Mail</a></li>
-                    </ul>
-                </div>
-                <!-- script-for-menu -->
-                <script>
-                    $("span.menu").click(function () {
-                        $("ul.nav1").slideToggle(300, function () {
-                            // Animation complete.
-                        });
-                    });
-                </script>
-                <!-- /script-for-menu -->
-
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
+   <bivr-header></bivr-header>
     <!-- banner -->
     <!-- Slider-starts-Here -->
     <script src="js/responsiveslides.min.js"></script>
@@ -80,7 +43,8 @@
                 <div class="slid banner1">
                     <div class="caption">
                         <h3>A Multiplayer - Meta-Verse - Social Community</h3>
-                        <p>Explore the boat island from a boat house. Get an access and interact with highlanders on this
+                        <p>Explore the boat island from a boat house. Get an access and interact with highlanders on
+                            this
                             virtual island from different boats around the world.</p>
                         <a class="btn btn-info btn-lg" href="#explore">TAKE A RIDE</a>
                     </div>
@@ -90,7 +54,7 @@
                 <div class="slid banner2">
                     <div class="caption">
                         <h3>An island - Exists inside - Your home </h3>
-                        <p> Harness the play room and other mini games across the Island. YOu shall be amazed 
+                        <p> Harness the play room and other mini games across the Island. YOu shall be amazed
                             with the experience. You can meet with others
                             privately or publicly on the island. </p>
                         <a class="btn btn-info btn-lg" href="#explore">TAKE A RIDE</a>
@@ -101,7 +65,9 @@
                 <div class="slid banner3">
                     <div class="caption">
                         <h3>FREE Boat Ride - For highlanders</h3>
-                        <p>To become an highlander, simply register on our <a href="https://theboatisland.com">Boat Island Platform</a>. Our platform will be free for our highlanders, you can also connect by purchasing a token to gain access.
+                        <p>To become an highlander, simply register on our <a href="https://theboatisland.com">Boat
+                                Island Platform</a>. Our platform will be free for our highlanders, you can also connect
+                            by purchasing a token to gain access.
 
                         </p>
                         <a class="btn btn-info btn-lg" href="#explore">TAKE A RIDE</a>
@@ -111,7 +77,7 @@
                 <div class="slid banner3">
                     <div class="caption">
                         <h3><a href="https://bivr.io">BIVR-&alpha;</a>Virtual Community - For Islanders</h3>
-                        <p>We are building a META and Virtual space islanders can visit, connect 
+                        <p>We are building a META and Virtual space islanders can visit, connect
                             and enjoy exclusive entertainment from different boats around the world.
                         </p>
                         <a class="btn btn-info btn-lg" href="#explore">TAKE A RIDE</a>
@@ -248,56 +214,16 @@
             </div>
         </div>
     </div>
-    <!-- footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="footer-grids">
-                <div class="col-md-3 ftr-info">
-                    <h3>About Us</h3>
-                    <p>Sed faucibus mollis laoreet. Sed vehicula faucibus tristique lectus a orci molestie finibus.
-                        Suspendisse pharetra, metus sed rutrum pretium.</p>
-                </div>
-                <div class="col-md-3 ftr-grid">
-                    <h3>Categories</h3>
-                    <ul class="ftr-list">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Racing</a></li>
-                        <li><a href="#">Adventure</a></li>
-                        <li><a href="#">Simulation</a></li>
-                        <li><a href="#">Bike</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 ftr-grid">
-                    <h3>Platform</h3>
-                    <ul class="ftr-list">
-                        <li><a href="#">Pc</a></li>
-                        <li><a href="#">Ps4</a></li>
-                        <li><a href="#">XBOX 360</a></li>
-                        <li><a href="#">XBOX ONE</a></li>
-                        <li><a href="#">PSP</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 ftr-grid">
-                    <h3>Information</h3>
-                    <ul class="ftr-list">
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Wish Lists</a></li>
-                        <li><a href="#">Site Map</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-    <!---->
-    <div class="copywrite">
-        <div class="container">
-            <p> &copy; <span id="year"></span> BIVR-&alpha;. All rights reserved | Design by <span id="devloper"></span>
-            </p>
-        </div>
-    </div>
-    <!---->
+
+    <bivr-footer></bivr-footer>
+    <script src="js/jquery.copyrights.js"></script>
+    <script>
+        $('#year').copyrights();
+        $('#developer').developer()
+
+        $('bivr-footer').load('components/footer/footer.html');
+        $('bivr-header').load('components/header/header.html');
+    </script>
 </body>
 
 </html>

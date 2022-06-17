@@ -1,0 +1,35 @@
+<!-- header -->
+<div class="top-banner">
+    <div class="banner-info">
+        <div class="container">
+            <div class="logo">
+                <h1>
+                    <img src="images/logo.jpeg" alt="bivr-alpah-logo" height="45px">
+                    <a href="index.html">BIVR-&alpha;</a>
+                </h1>
+            </div>
+            <div class="top-menu">
+                <span class="menu"></span>
+                <ul class="nav1">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="typo.html">News</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Mail</a></li>
+                </ul>
+            </div>
+            <!-- script-for-menu -->
+            <script>
+                $("span.menu").click(function () {
+                    $("ul.nav1").slideToggle(300, function () {
+                        // Animation complete.
+                    });
+                });
+            </script>
+            <!-- /script-for-menu -->
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
