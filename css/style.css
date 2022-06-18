@@ -71,7 +71,7 @@ a#toTop {
 
 /*-- header_top --*/
 .header {
-  background: #69d2e8;
+  background: #545cac;
   padding: 1em 0;
 }
 
@@ -324,7 +324,7 @@ span.menu {
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   -ms-border-radius: 50%;
-  background: #69d2e8;
+  background: #545cac;
   border: 2px solid#fff;
 }
 
@@ -507,7 +507,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   font-family: 'Play-Regular';
   font-size: 2em;
   margin-top: 8px;
-  color: #69d2e8;
+  color: #545cac;
 }
 
 .x-box-left p {
@@ -519,7 +519,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 .x-box-left a {
   display: inline-block;
-  background: #69d2e8;
+  background: #545cac;
   color: #fff;
   padding: 0.8em 1.7em;
   margin-top: 2em;
@@ -550,7 +550,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #69d2e8;
+  background: #545cac;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -759,7 +759,7 @@ h2.top,
 .abt-info-pic h3 {
   font-family: 'Play-Regular';
   font-size: 2em;
-  color: #69d2e8;
+  color: #545cac;
 }
 
 .abt-info-pic p {
@@ -817,7 +817,7 @@ h2.top,
 }
 
 .testi-info h4 {
-  color: #69d2e8;
+  color: #545cac;
   font-size: 1.3em;
   margin-top: 15px;
 }
@@ -830,7 +830,7 @@ h2.top,
 }
 
 .testi-info a:hover {
-  color: #69d2e8;
+  color: #545cac;
   ;
 }
 
@@ -855,7 +855,7 @@ h2.top,
 }
 
 .team-grid h4 {
-  color: #69d2e8;
+  color: #545cac;
   font-size: 1.3em;
   margin: 0.6em 0;
 }
@@ -882,7 +882,7 @@ h2.top,
 }
 
 .col-1 h4 a:hover {
-  color: #69d2e8;
+  color: #545cac;
 }
 
 .col-1 p {
@@ -996,8 +996,8 @@ img.zoom-img:hover {
 }
 
 a.list-group-item:hover {
-  background-color: #69d2e8;
-  border-color: #69d2e8;
+  background-color: #545cac;
+  border-color: #545cac;
   color: #fff;
 }
 
@@ -1049,8 +1049,8 @@ a.list-group-item:hover {
 }
 
 .btn-primary {
-  background: #69d2e8;
-  border-color: #69d2e8;
+  background: #545cac;
+  border-color: #545cac;
   color: #fff;
 }
 
@@ -1271,10 +1271,10 @@ a.list-group-item:hover {
 .coment-form input[type="submit"] {
   padding: 10px 43px;
   margin-top: 23px;
-  border: 2px solid #69d2e8;
+  border: 2px solid #545cac;
   color: #ffffff;
   font-size: 1em;
-  background: #69d2e8;
+  background: #545cac;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -1284,8 +1284,8 @@ a.list-group-item:hover {
 
 .coment-form input[type="submit"]:hover {
   background: transparent;
-  color: #69d2e8;
-  border: 2px solid #69d2e8;
+  color: #545cac;
+  border: 2px solid #545cac;
 }
 
 .coment-form h4 {
@@ -1441,9 +1441,9 @@ h3.ghj {
 .contact form input[type="submit"] {
   font-size: 0.8em;
   display: inline-block;
-  background: #69d2e8;
+  background: #545cac;
   padding: 0.6em 2em;
-  border: 2px solid #69d2e8;
+  border: 2px solid #545cac;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
@@ -1456,8 +1456,8 @@ h3.ghj {
 
 .contact form input[type="submit"]:hover {
   background: transparent;
-  color: #69d2e8;
-  border: 2px solid #69d2e8;
+  color: #545cac;
+  border: 2px solid #545cac;
 }
 
 .address {
@@ -2355,7 +2355,7 @@ h3.ghj {
     width: 100%;
     left: 0;
     margin-top: 2.5em;
-    background: #69d2e8;
+    background: #545cac;
   }
 
   .top-menu ul.nav1 li.active {
