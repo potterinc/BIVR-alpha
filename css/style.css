@@ -234,7 +234,7 @@ span.menu {
 }
 
 .banner2 {
-  background: url(../images/bnr3.png) no-repeat 0px 0px;
+  background: url(../images/bnr2.jpg) no-repeat 0px 0px;
   background-size: cover;
   min-height: 680px;
 }
@@ -667,7 +667,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .bnr2 {
-  background: url(../images/bnr3.jpg) no-repeat 0px 0px;
+  background: url(../images/bnr.jpg) no-repeat 0px 0px;
   background-size: cover;
   min-height: 170px;
 }
