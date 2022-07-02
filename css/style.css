@@ -234,7 +234,7 @@ span.menu {
 }
 
 .banner2 {
-  background: url(../images/bnr2.jpg) no-repeat 0px 0px;
+  background: url(../images/bnr2.png) no-repeat 0px 0px;
   background-size: cover;
   min-height: 680px;
 }
@@ -245,6 +245,22 @@ span.menu {
   min-height: 680px;
 }
 
+.banner4 {
+  background: url(../images/bnr4.png) no-repeat 0px 0px;
+  background-size: cover;
+  min-height: 680px;
+}
+
+.banner5 {
+  background: url(../images/bnr5.png) no-repeat 0px 0px;
+  background-size: cover;
+  min-height: 680px;
+}
+.banner6 {
+  background: url(../images/bnr6.png) no-repeat 0px 0px;
+  background-size: cover;
+  min-height: 680px;
+}
 .slider {
   position: relative;
 }
