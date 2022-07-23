@@ -10112,7 +10112,8 @@ nav ul li a:hover {
     text-align: center; }
   header {
     height: auto;
-    padding: 15px 0; }
+    padding: 15px 0;
+  background-color: #dfc8e9; }
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     transform: translateX(0px); }
   .phone {
@@ -10283,7 +10284,7 @@ nav ul li a:hover {
 /*--//stats--*/
 .w3l-index4 .new-block {
   background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url(../images/bg.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url(../images/bg1.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -10302,9 +10303,9 @@ nav ul li a:hover {
   font-weight: 700; }
 
 .w3l-index4 .link-list-menu p {
-  font-size: 16px;
+  font-size: 24px;
   color: #eee;
-  line-height: 24.5px; }
+  line-height: 30px; }
 
 @media (max-width: 800px) {
   .w3l-index4 .middle-section a {
@@ -10316,8 +10317,8 @@ nav ul li a:hover {
   .w3l-index4 .middle-section a {
     margin-top: 30px; }
   .w3l-index4 .link-list-menu p {
-    font-size: 15px;
-    line-height: 22px; } }
+    font-size: 24px;
+    line-height: 30px; } }
 
 @media (max-width: 440px) {
   .w3l-index4 .middle-section h2 {
