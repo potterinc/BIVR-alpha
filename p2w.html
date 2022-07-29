@@ -89,7 +89,7 @@
                                             <span class="col-md-4">
                                                 <strong>Number of token to purchased: </strong>
                                             </span>
-                                            <input type="number" name="token" id="token"
+                                            <input type="number" name="token" id="token" min="2" max="10" value="2"
                                                 class=" col-md-6 contact-input">
                                             <span class="col-md-2">
                                                 <i class="fa fa-refresh fa-2x"></i>
@@ -244,9 +244,23 @@
 
     <!--  Bootstrap JS -->
     <script src="assets/js/bootstrap.min.js"></script>
-    <script>
 
-        console.log($('#price').html());
+    <!-- Calculating  -->
+    <script>
+        $('#token').keyup(() => {
+            let token = parseInt($('#token').val());
+            if (token < 2)
+                shells = parseInt($('#token').val(2));
+            if (token > 10)
+            shells = parseInt($('#token').val(10));
+            shells = parseInt($('#token').val());
+            buyShells(shells);
+        })
+        buyShells = (s) => {
+            let result = 1000 * s;
+            $('#price').html(result);
+        }
+        buyShells(parseInt($('#token').val()));
     </script>
 </body>
 
