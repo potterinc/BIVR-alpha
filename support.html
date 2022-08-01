@@ -14,16 +14,11 @@
   <!-- web fonts -->
   <link href="//fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-
 <body>
   <!--header-->
   <header id="site-header" class="fixed-top">
     <div class="container">
       <nav class="navbar navbar-expand-lg stroke">
-        <!-- <a class="navbar-brand" href="index.html">
-                <span class="fa fa-handshake-o"></span> Masterwork
-            </a> -->
-
         <a class="navbar-brand" href="index.html">
           <img src="assets/images/logo.png" alt="Your logo" title="bivr logo" style="height:35px;" />
           <img src="assets/images/logo-txt.png" alt="Your logo" title="bivr logo" style="height:35px;" />
@@ -38,7 +33,7 @@
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item @@about-active">
@@ -48,12 +43,12 @@
               <a class="nav-link" href="careers.html">Careers</a>
             </li>
             <li class="nav-item @@services-active">
-              <a class="nav-link" href="careers.html">Events</a>
+              <a class="nav-link" href="events.html">Events</a>
             </li>
             <li class="nav-item ml-lg-3 ml-0 mt-lg-0 mt-3">
-              <a class="btn btn-outline-primary theme-button" href="support.html">Download Now</a>
+              <a class="btn btn-outline-primary theme-button" href="#">Download Now</a>
             </li>
-            <li class="nav-item @@contact-active active">
+            <li class="nav-item @@contact-active">
               <a class="nav-link" href="support.html">Support</a>
             </li>
           </ul>
@@ -150,7 +145,6 @@
       </div>
     </div>
 
-
     <section class="w3l-contact" id="contact">
       <div class="container py-5">
         <div class="contacts12-main py-md-3">
@@ -242,8 +236,8 @@
                   <ul class="footer-gd-16">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="careers.html">Events</a></li>
-                    <li><a href="#url">Support</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="support.html">Support</a></li>
                     <li><a href="#url">Purchase Token</a></li>
                   </ul>
                 </div>
@@ -355,77 +349,6 @@
 
   <!-- Template JavaScript -->
   <script src="assets/js/owl.carousel.js"></script>
-
-  <!-- script for testimonials -->
-  <script>
-    $(document).ready(function () {
-      $('.owl-two').owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: false,
-        responsiveClass: true,
-        autoplay: false,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 1000,
-        autoplayHoverPause: false,
-        responsive: {
-          0: {
-            items: 1,
-            nav: false
-          },
-          480: {
-            items: 1,
-            nav: false
-          },
-          667: {
-            items: 1,
-            nav: false
-          },
-          1000: {
-            items: 2,
-            nav: false
-          }
-        }
-      })
-    })
-  </script>
-  <!-- //testimonials owlcarousel -->
-
-  <!-- script for customers -->
-  <script>
-    $(document).ready(function () {
-      $('.owl-three').owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: false,
-        responsiveClass: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 1000,
-        autoplayHoverPause: false,
-        responsive: {
-          0: {
-            items: 1,
-            nav: false
-          },
-          480: {
-            items: 2,
-            nav: false
-          },
-          667: {
-            items: 2,
-            nav: false
-          },
-          1000: {
-            items: 4,
-            nav: false
-          }
-        }
-      })
-    })
-  </script>
-  <!-- //customers owlcarousel -->
-
   <!-- responsive tabs -->
   <script src="assets/js/easyResponsiveTabs.js"></script>
 
@@ -448,51 +371,6 @@
       });
     });
   </script>
-
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      $('.popup-with-zoom-anim').magnificPopup({
-        type: 'inline',
-
-        fixedContentPos: false,
-        fixedBgPos: true,
-
-        overflowY: 'auto',
-
-        closeBtnInside: true,
-        preloader: false,
-
-        midClick: true,
-        removalDelay: 300,
-        mainClass: 'my-mfp-zoom-in'
-      });
-
-      $('.popup-with-move-anim').magnificPopup({
-        type: 'inline',
-
-        fixedContentPos: false,
-        fixedBgPos: true,
-
-        overflowY: 'auto',
-
-        closeBtnInside: true,
-        preloader: false,
-
-        midClick: true,
-        removalDelay: 300,
-        mainClass: 'my-mfp-slide-bottom'
-      });
-    });
-  </script>
-
-  <!-- stats number counter-->
-  <script src="assets/js/jquery.waypoints.min.js"></script>
-  <script src="assets/js/jquery.countup.js"></script>
-  <script>
-    $('.counter').countUp();
-  </script>
-  <!-- //stats number counter -->
   <!--/MENU-JS-->
   <script>
     $(window).on("scroll", function () {

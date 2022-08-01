@@ -38,20 +38,20 @@
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item @@about-active">
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item @@services-active">
-              <a class="nav-link" href="events.html">Careers</a>
+              <a class="nav-link" href="careers.html">Careers</a>
             </li>
-            <li class="nav-item @@services-active active">
+            <li class="nav-item @@services-active">
               <a class="nav-link" href="events.html">Events</a>
             </li>
             <li class="nav-item ml-lg-3 ml-0 mt-lg-0 mt-3">
-              <a class="btn btn-outline-primary theme-button" href="support.html">Download Now</a>
+              <a class="btn btn-outline-primary theme-button" href="#">Download Now</a>
             </li>
             <li class="nav-item @@contact-active">
               <a class="nav-link" href="support.html">Support</a>
@@ -208,7 +208,7 @@ have decided to give out prizes to a  lucky winner</p>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="events.html">Events</a></li>
-                    <li><a href="#url">Support</a></li>
+                    <li><a href="support.html">Support</a></li>
                     <li><a href="#url">Purchase Token</a></li>
                   </ul>
                 </div>
@@ -293,7 +293,6 @@ have decided to give out prizes to a  lucky winner</p>
             document.getElementById("movetop").style.display = "none";
           }
         }
-
         // When the user clicks on the button, scroll to the top of the document
         function topFunction() {
           document.body.scrollTop = 0;
@@ -311,8 +310,6 @@ have decided to give out prizes to a  lucky winner</p>
     </section>
     <!-- //footer -->
   </footer>
-
-
   <!-- jQuery JS -->
   <!-- <script src="assets/js/jquery-3.4.1.slim.min.js"></script> -->
   <!-- jQuery JS -->
@@ -320,76 +317,6 @@ have decided to give out prizes to a  lucky winner</p>
 
   <!-- Template JavaScript -->
   <script src="assets/js/owl.carousel.js"></script>
-
-  <!-- script for testimonials -->
-  <script>
-    $(document).ready(function () {
-      $('.owl-two').owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: false,
-        responsiveClass: true,
-        autoplay: false,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 1000,
-        autoplayHoverPause: false,
-        responsive: {
-          0: {
-            items: 1,
-            nav: false
-          },
-          480: {
-            items: 1,
-            nav: false
-          },
-          667: {
-            items: 1,
-            nav: false
-          },
-          1000: {
-            items: 2,
-            nav: false
-          }
-        }
-      })
-    })
-  </script>
-  <!-- //testimonials owlcarousel -->
-
-  <!-- script for customers -->
-  <script>
-    $(document).ready(function () {
-      $('.owl-three').owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: false,
-        responsiveClass: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 1000,
-        autoplayHoverPause: false,
-        responsive: {
-          0: {
-            items: 1,
-            nav: false
-          },
-          480: {
-            items: 2,
-            nav: false
-          },
-          667: {
-            items: 2,
-            nav: false
-          },
-          1000: {
-            items: 4,
-            nav: false
-          }
-        }
-      })
-    })
-  </script>
-  <!-- //customers owlcarousel -->
 
   <!-- responsive tabs -->
   <script src="assets/js/easyResponsiveTabs.js"></script>
@@ -450,14 +377,6 @@ have decided to give out prizes to a  lucky winner</p>
       });
     });
   </script>
-
-  <!-- stats number counter-->
-  <script src="assets/js/jquery.waypoints.min.js"></script>
-  <script src="assets/js/jquery.countup.js"></script>
-  <script>
-    $('.counter').countUp();
-  </script>
-  <!-- //stats number counter -->
   <!--/MENU-JS-->
   <script>
     $(window).on("scroll", function () {
@@ -490,5 +409,4 @@ have decided to give out prizes to a  lucky winner</p>
   <!--  Bootstrap JS -->
   <script src="assets/js/bootstrap.min.js"></script>
 </body>
-
 </html>
