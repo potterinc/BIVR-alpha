@@ -29,10 +29,10 @@
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item @@about-active">
+            <li class="nav-item @@about-active active">
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item @@services-active">
@@ -149,7 +149,7 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <img src="assets/images/bg.jpg" alt="P2W" />
-                    <a href="p2w.html" class="btn btn-light theme-button" style="border-radius: 40px; position: absolute; bottom: 30px; left:30px;
+                    <a href="p2w.html" class="btn btn-light theme-button" style="line-height: 2rem; padding: 0 20px; border-radius: 40px; position: absolute; bottom: 20px; left:20px;
                     color: #fff; background: #ab07d4; border: none;">Go To Event</a>
                   </div>
                 </div>
@@ -195,17 +195,7 @@
                   style="height:25px" />
                 <img class="img-fluid" src="assets/images/logo-txt.png" alt="" style="height:25px" />
               </h3>
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-              <p style="color: #ffffff !important"> Boat Island VR (BIVR), is a metaverse community for
-                BOATS and
-=======
               <p style="color: #ffffff !important"> Boat Island VR (BIVR), is a metaverse community for BOATS and
->>>>>>> ed7c142bc4d676d2c1b568e7e3e7b14b87fc5832
-=======
-              <p style="color: #ffffff !important"> Boat Island VR (BIVR), is a metaverse community for BOATS and
->>>>>>> ed7c142bc4d676d2c1b568e7e3e7b14b87fc5832
                 ISLANDERS. The first multiplayer
                 virtual reality platform for creators.
                 We are building a meta and virtual space where ISLANDERS (Fans) can visit, connect with
@@ -244,13 +234,8 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <img src="assets/images/bg.jpg" alt="P2W" />
-            <a href="p2w.html" class="btn btn-light theme-button" 
-              style="border-radius: 40px; 
-              position: absolute; bottom: 30px; 
-              left:30px;
-              color: #fff; 
-              background: #ab07d4; 
-              border: none;">Go To Event</a>
+            <a href="p2w.html" class="btn btn-light theme-button" style="line-height: 2rem; padding: 0 20px;border-radius: 40px; position: absolute; bottom: 30px; left:30px; color: #fff; background: #ab07d4; border: none;">
+              Go To Event</a>
           </div>
         </div>
       </div>
@@ -295,146 +280,6 @@
   <!-- jQuery JS -->
   <script src="assets/js/jquery-1.9.1.min.js"></script>
 
-  <!-- Template JavaScript -->
-  <script src="assets/js/owl.carousel.js"></script>
-
-  <!-- script for testimonials -->
-  <script>
-    $(document).ready(function () {
-      $('.owl-two').owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: false,
-        responsiveClass: true,
-        autoplay: false,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 1000,
-        autoplayHoverPause: false,
-        responsive: {
-          0: {
-            items: 1,
-            nav: false
-          },
-          480: {
-            items: 1,
-            nav: false
-          },
-          667: {
-            items: 1,
-            nav: false
-          },
-          1000: {
-            items: 2,
-            nav: false
-          }
-        }
-      })
-    })
-  </script>
-  <!-- //testimonials owlcarousel -->
-
-  <!-- script for customers -->
-  <script>
-    $(document).ready(function () {
-      $('.owl-three').owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: false,
-        responsiveClass: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 1000,
-        autoplayHoverPause: false,
-        responsive: {
-          0: {
-            items: 1,
-            nav: false
-          },
-          480: {
-            items: 2,
-            nav: false
-          },
-          667: {
-            items: 2,
-            nav: false
-          },
-          1000: {
-            items: 4,
-            nav: false
-          }
-        }
-      })
-    })
-  </script>
-  <!-- //customers owlcarousel -->
-
-  <!-- responsive tabs -->
-  <script src="assets/js/easyResponsiveTabs.js"></script>
-
-  <!--Plug-in Initialisation-->
-  <script type="text/javascript">
-    $(document).ready(function () {
-      //Horizontal Tab
-      $('#parentHorizontalTab').easyResponsiveTabs({
-        type: 'default', //Types: default, vertical, accordion
-        width: 'auto', //auto or any width like 600px
-        fit: true, // 100% fit in a container
-        tabidentify: 'hor_1', // The tab groups identifier
-        activate: function (event) { // Callback function if tab is switched
-          var $tab = $(this);
-          var $info = $('#nested-tabInfo');
-          var $name = $('span', $info);
-          $name.text($tab.text());
-          $info.show();
-        }
-      });
-    });
-  </script>
-
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      $('.popup-with-zoom-anim').magnificPopup({
-        type: 'inline',
-
-        fixedContentPos: false,
-        fixedBgPos: true,
-
-        overflowY: 'auto',
-
-        closeBtnInside: true,
-        preloader: false,
-
-        midClick: true,
-        removalDelay: 300,
-        mainClass: 'my-mfp-zoom-in'
-      });
-
-      $('.popup-with-move-anim').magnificPopup({
-        type: 'inline',
-
-        fixedContentPos: false,
-        fixedBgPos: true,
-
-        overflowY: 'auto',
-
-        closeBtnInside: true,
-        preloader: false,
-
-        midClick: true,
-        removalDelay: 300,
-        mainClass: 'my-mfp-slide-bottom'
-      });
-    });
-  </script>
-
-  <!-- stats number counter-->
-  <script src="assets/js/jquery.waypoints.min.js"></script>
-  <script src="assets/js/jquery.countup.js"></script>
-  <script>
-    $('.counter').countUp();
-  </script>
-  <!-- //stats number counter -->
   <!--/MENU-JS-->
   <script>
     $(window).on("scroll", function () {
