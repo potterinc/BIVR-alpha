@@ -370,40 +370,45 @@
     })
   })
 </script>
-<!-- //customers owlcarousel --><!-- script for customers -->
+<!-- //customers owlcarousel -->
+
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script>
   $(document).ready(function () {
-    $('.owl-three').owlCarousel({
-      loop: true,
-      margin: 0,
-      nav: false,
-      responsiveClass: true,
-      autoplay: true,
-      autoplayTimeout: 5000,
-      autoplaySpeed: 1000,
-      autoplayHoverPause: false,
-      responsive: {
-        0: {
-          items: 1,
-          nav: false
-        },
-        480: {
-          items: 2,
-          nav: false
-        },
-        667: {
-          items: 2,
-          nav: false
-        },
-        1000: {
-          items: 4,
-          nav: false
-        }
-      }
-    })
-  })
+    $('.popup-with-zoom-anim').magnificPopup({
+      type: 'inline',
+
+      fixedContentPos: false,
+      fixedBgPos: true,
+
+      overflowY: 'auto',
+
+      closeBtnInside: true,
+      preloader: false,
+
+      midClick: true,
+      removalDelay: 300,
+      mainClass: 'my-mfp-zoom-in'
+    });
+
+    $('.popup-with-move-anim').magnificPopup({
+      type: 'inline',
+
+      fixedContentPos: false,
+      fixedBgPos: true,
+
+      overflowY: 'auto',
+
+      closeBtnInside: true,
+      preloader: false,
+
+      midClick: true,
+      removalDelay: 300,
+      mainClass: 'my-mfp-slide-bottom'
+    });
+  });
 </script>
-<!-- //customers owlcarousel -->
+
 
   <!--  Bootstrap JS -->
   <script src="assets/js/bootstrap.min.js"></script>
