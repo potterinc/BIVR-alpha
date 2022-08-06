@@ -14278,7 +14278,7 @@ a.brand-logo img {
     font-size: 40px;
     line-height: 50px;
   }
-
+  .text-right{text-align: center !important}
   .header-section h2 {
     font-size: 40px;
     line-height: 50px;
@@ -14290,6 +14290,7 @@ a.brand-logo img {
     font-size: 32px;
     line-height: 42px;
   }
+  .text-right{text-align: center !important}
 
   .header-section h2 {
     font-size: 36px;
