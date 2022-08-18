@@ -1,13 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Register P2W - BIVR</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful - Boat Island</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
 
@@ -17,14 +15,11 @@
 </head>
 
 <body>
+
     <!--header-->
     <header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg stroke">
-                <!-- <a class="navbar-brand" href="index.html">
-                <span class="fa fa-handshake-o"></span> Masterwork
-            </a> -->
-
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/images/logo.png" alt="Your logo" title="bivr logo" style="height:35px;" />
                     <img src="assets/images/logo-txt.png" alt="Your logo" title="bivr logo" style="height:35px;" />
@@ -38,7 +33,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item @@about-active">
@@ -65,60 +60,22 @@
         </div>
     </header>
     <!--/header-->
+    <!-- contact breadcrumbs -->
+    <nav id="breadcrumbs" class="breadcrumbs">
+        <div class="container page-wrapper">
+            <a href="index.html">Home</a> » <span class="breadcrumb_last" aria-current="page">Events</span> » <span
+                class="breadcrumb_last" aria-current="page">Download Game</span>
+        </div>
+    </nav>
+    <!-- /contact breadcrumbs -->
     <main>
-        <section class="w3l-contact" id="contact">
-            <div class="container py-5">
-                <div class="contacts12-main py-md-3">
-                    <div class="header-section mb-5 text-center">
-
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-lg-12 position-relative">
-                            <div class="contact-form" style="left:0">
-                                <div class="header-section mb-4 text-left">
-                                    <h3>Register for P2W Event</h3>
-                                </div>
-                                <form onsubmit="return false" class="" id=subscribe>
-                                    <div class="main-input">
-                                        <input type="text" id="firstname" placeholder="First Name" class="contact-input"
-                                            p2w />
-                                        <input type="text" id="lastname" placeholder="Last Name" class="contact-input"
-                                            p2w />
-                                        <input type="email" id="email" placeholder="Email" class="contact-input" p2w />
-                                        <input type="tel" id="phone" placeholder="Phone" class="contact-input" p2w />
-                                        <div class="col-md-12">
-                                            <span class="col-md-4">
-                                                <strong>Number of token to purchased: </strong>
-                                            </span>
-                                            <input type="number" id="token" min="2" max="10" value="2"
-                                                class=" col-md-6 contact-input" />
-                                            <span class="col-md-2">
-                                                <i class="fa fa-refresh fa-2x"></i>
-                                                <span style="margin-left: 30px; color: #0a0" class="fa-2x">
-                                                    <label>&#8358</label>
-                                                    <span id="price"></span>
-                                                </span>
-                                            </span>
-                                        </div>
-                                        <p class="text-center">You can purchase a minimum of 2 tokens and a maximum of
-                                            10 tokens</p>
-
-                                    </div>
-                                    <div class="text-right mt-3">
-                                        <button class="btn-primary btn theme-button" id="pay">Make Payment</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                <!-- <a
+                href="https://afrolife.club/BIVR/boat_island_vr.apk"
+                class="btn btn-primary" download="BIVR">Click to Download BIVR</a> -->
+        </div>
     </main>
     <footer>
-        <!-- footer -->
         <section class="w3l-footer">
-
             <div class="w3l-footer-16-main py-5" style="background-color: #242464 !important">
                 <div class="container">
                     <div class="row">
@@ -195,19 +152,6 @@
             </div>
             </div>
             </div>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <img src="assets/images/bg.jpg" alt="P2W" />
-                        <a href="p2w.html" class="btn btn-light theme-button"
-                            style="line-height: 2rem; padding: 0 20px; border-radius: 40px; position: absolute; bottom: 20px; left:20px; color: #fff; background: #ab07d4; border: none;">
-                            Go To Event</a>
-                    </div>
-                </div>
-            </div>
-            <!-- move top -->
             <button onclick="topFunction()" id="movetop" title="Go to top">
                 <span class="fa fa-angle-up"></span>
             </button>
@@ -232,49 +176,20 @@
                 }
             </script>
             <!-- //move top -->
+            <script>
+                $(function () {
+                    $('.navbar-toggler').click(function () {
+                        $('body').toggleClass('noscroll');
+                    })
+                });
+            </script>
         </section>
         <!-- //footer -->
     </footer>
-
     <!-- jQuery JS -->
     <!-- <script src="assets/js/jquery-3.4.1.slim.min.js"></script> -->
     <!-- jQuery JS -->
     <script src="assets/js/jquery-1.9.1.min.js"></script>
-
-    <script src="https://js.paystack.co/v2/inline.js"></script>
-    <script src="assets/js/pay.js"></script>
-    <!-- Template JavaScript -->
-    <script src="assets/js/owl.carousel.js"></script>
-
-    <!-- responsive tabs -->
-    <script src="assets/js/easyResponsiveTabs.js"></script>
-
-    <script>
-        $(function () {
-            $('.navbar-toggler').click(function () {
-                $('body').toggleClass('noscroll');
-            })
-        });
-    </script>
-    <!--Plug-in Initialisation-->
-    <script type="text/javascript">
-        $(document).ready(function () {
-            //Horizontal Tab
-            $('#parentHorizontalTab').easyResponsiveTabs({
-                type: 'default', //Types: default, vertical, accordion
-                width: 'auto', //auto or any width like 600px
-                fit: true, // 100% fit in a container
-                tabidentify: 'hor_1', // The tab groups identifier
-                activate: function (event) { // Callback function if tab is switched
-                    var $tab = $(this);
-                    var $info = $('#nested-tabInfo');
-                    var $name = $('span', $info);
-                    $name.text($tab.text());
-                    $info.show();
-                }
-            });
-        });
-    </script>
 
     <!--/MENU-JS-->
     <script>
@@ -302,30 +217,13 @@
                 }
             });
         });
-
     </script>
+
+
     <!--//MENU-JS-->
 
     <!--  Bootstrap JS -->
     <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Calculating  -->
-    <script>
-        $('#token').change(() => {
-            let token = parseInt($('#token').val());
-            if (token < 2)
-                shells = parseInt($('#token').val(2));
-            if (token > 10)
-                shells = parseInt($('#token').val(10));
-            shells = parseInt($('#token').val());
-            buyShells(shells);
-        })
-        buyShells = (s) => {
-            let result = 1000 * s;
-            $('#price').html(result);
-        }
-        buyShells(parseInt($('#token').val()));
-    </script>
 </body>
 
 </html>
