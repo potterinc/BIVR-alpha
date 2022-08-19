@@ -37,29 +37,29 @@
                     </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item @@about-active">
-                      <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item @@services-active">
-                      <a class="nav-link" href="careers.html">Careers</a>
-                    </li>
-                    <li class="nav-item @@services-active">
-                      <a class="nav-link" href="events.html">Events</a>
-                    </li>
-                    <li class="nav-item ml-lg-3 ml-0 mt-lg-0 mt-3">
-                      <a class="btn btn-outline-primary theme-button" href="register.html">Download Now</a>
-                    </li>
-                    <li class="nav-item @@contact-active">
-                      <a class="nav-link" href="support.html">Support</a>
-                    </li>
-                    <li class="nav-item @@contact-active">
-                      <a class="nav-link" href="faq.html">FAQ</a>
-                    </li>
-                  </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item @@about-active">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item @@services-active">
+                            <a class="nav-link" href="careers.html">Careers</a>
+                        </li>
+                        <li class="nav-item @@services-active">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item ml-lg-3 ml-0 mt-lg-0 mt-3">
+                            <a class="btn btn-outline-primary theme-button" href="register.html">Download Now</a>
+                        </li>
+                        <li class="nav-item @@contact-active">
+                            <a class="nav-link" href="support.html">Support</a>
+                        </li>
+                        <li class="nav-item @@contact-active">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
@@ -78,26 +78,25 @@
                                 <div class="header-section mb-4 text-left">
                                     <h3>Register for P2W Event</h3>
                                 </div>
-                                <form method="post" class="">
+                                <form onsubmit="return false" class="" id=subscribe>
                                     <div class="main-input">
-                                        <input type="text" name="firstname" placeholder="First Name"
-                                            class="contact-input" required="" />
-                                        <input type="text" name="lastname" placeholder="Last Name" class="contact-input"
-                                            required="" />
-                                        <input type="email" name="email" placeholder="Email" class="contact-input" />
-                                        <input type="tel" name="phone" placeholder="Phone" class="contact-input"
-                                            required="" />
+                                        <input type="text" id="firstname" placeholder="First Name" class="contact-input"
+                                            p2w />
+                                        <input type="text" id="lastname" placeholder="Last Name" class="contact-input"
+                                            p2w />
+                                        <input type="email" id="email" placeholder="Email" class="contact-input" p2w />
+                                        <input type="tel" id="phone" placeholder="Phone" class="contact-input" p2w />
                                         <div class="col-md-12">
                                             <span class="col-md-4">
                                                 <strong>Number of token to purchased: </strong>
                                             </span>
-                                            <input type="number" name="token" id="token" min="2" max="10" value="2"
-                                                class=" col-md-6 contact-input">
+                                            <input type="number" id="token" min="2" max="10" value="2"
+                                                class=" col-md-6 contact-input" />
                                             <span class="col-md-2">
                                                 <i class="fa fa-refresh fa-2x"></i>
                                                 <span style="margin-left: 30px; color: #0a0" class="fa-2x">
                                                     <label>&#8358</label>
-                                                    <span id="price">1000</span>
+                                                    <span id="price"></span>
                                                 </span>
                                             </span>
                                         </div>
@@ -106,7 +105,7 @@
 
                                     </div>
                                     <div class="text-right mt-3">
-                                        <button class="btn-primary btn theme-button">Make Payment</button>
+                                        <button class="btn-primary btn theme-button" id="pay">Make Payment</button>
                                     </div>
                                 </form>
                             </div>
@@ -117,125 +116,124 @@
         </section>
     </main>
     <footer>
-      <!-- footer -->
-      <section class="w3l-footer">
-  
-        <div class="w3l-footer-16-main py-5" style="background-color: #242464 !important">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-6 column">
-                      <div class="row">
-                          <div class="col-md-6 column">
-                              <h3>Quick Links</h3>
-                              <ul class="footer-gd-16">
-                                  <li><a href="index.html">Home</a></li>
-                                  <li><a href="about.html">About Us</a></li>
-                                  <li><a href="events.html">Events</a></li>
-                                  <li><a href="career.html">Careers</a></li>
-                                  <li><a href="support.html">How to Play</a></li>
-                                  <li><a href="register.html">Download</a></li>
-                              </ul>
-                          </div>
-                          <div class="col-md-6 column mt-md-0 mt-4">
-                              <h3>Legal Information</h3>
-                              <ul class="footer-gd-16">
-                                  <li><a href="terms.html">Terms of Use</a></li>
-                                  <li><a href="privacy.html#privacy">Privacy Policy</a></li>
-                                  <li><a href="privacy.html">Security Agreement</a></li>
-                              </ul>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-6 col-md-12 column pl-lg-5 column4 mt-lg-0 mt-5">
-                      <h3 style="display: inline-block"><img class="img-fluid" src="assets/images/logo.png" alt=""
-                              style="height:25px" />
-                          <img class="img-fluid" src="assets/images/logo-txt.png" alt="" style="height:25px" />
-                      </h3>
-  
-                      <p style="color: #ffffff !important"> Boat Island VR (BIVR), is a metaverse community for
-                          BOATS and
-                          ISLANDERS. The first multiplayer
-                          virtual reality platform for creators.
-                          We are building a meta and virtual space where ISLANDERS (Fans) can visit, connect with
-                          each other and
-                          enjoy
-                          exclusive content and entertainment from different BOATS (creators) around the world.
-                          Our platform is free for our BOAT ISLAND members, others can connect by purchasing a
-                          token for access.
-                      </p>
-                  </div>
-              </div>
-          </div>
-          <div class="d-flex below-section justify-content-between align-items-center pt-4 mt-5">
-              <div class="columns text-lg-left text-center">
-                  <p title="Designed by Potter Inc&trade;" style="color: #ffffff">&copy; 2022 The Boat Island. All
-                      rights
-                      reserved
-                  </p>
-              </div>
-              <div class="columns-2 mt-lg-0 mt-3">
-                  <ul class="social">
-                      <li><a href="https://www.facebook.com/BoatIsland" target="_blank"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                      </li>
-                      <li><a href="https://instagram.com/boatislandvr?igshid=YmMyMTA2M2Y=" target="_blank"><span class="fa fa-instagram" aria-hidden="true"></span></a>
-                      </li>
-                      <li><a href="https://twitter.com/BoatIslandVr?t=4gl6FXBUVNQ5PS9kBvTP7w&s=09" target="_blank"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-                      </li>
-                      <li><a href="https://youtu.be/yRh7N-CluiM" target="_blank"><span class="fa fa-youtube" aria-hidden="true"></span></a>
-                      </li>
-                      <li><a href="https://www.linkedin.com/company/boatisland/" target="_blank"><span class="fa fa-linkedin" aria-hidden="true"></span></a></li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-          </div>
-        </div>
-        </div>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <img src="assets/images/bg.jpg" alt="P2W" />
-              <a href="p2w.html" class="btn btn-light theme-button" style="line-height: 2rem; padding: 0 20px; border-radius: 40px; position: absolute; bottom: 20px; left:20px; color: #fff; background: #ab07d4; border: none;">
-                Go To Event</a>
+        <!-- footer -->
+        <section class="w3l-footer">
+
+            <div class="w3l-footer-16-main py-5" style="background-color: #242464 !important">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 column">
+                            <div class="row">
+                                <div class="col-md-6 column">
+                                    <h3>Quick Links</h3>
+                                    <ul class="footer-gd-16">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="events.html">Events</a></li>
+                                        <li><a href="career.html">Careers</a></li>
+                                        <li><a href="support.html">How to Play</a></li>
+                                        <li><a href="register.html">Download</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 column mt-md-0 mt-4">
+                                    <h3>Legal Information</h3>
+                                    <ul class="footer-gd-16">
+                                        <li><a href="terms.html">Terms of Use</a></li>
+                                        <li><a href="privacy.html#privacy">Privacy Policy</a></li>
+                                        <li><a href="privacy.html">Security Agreement</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 column pl-lg-5 column4 mt-lg-0 mt-5">
+                            <h3 style="display: inline-block"><img class="img-fluid" src="assets/images/logo.png" alt=""
+                                    style="height:25px" />
+                                <img class="img-fluid" src="assets/images/logo-txt.png" alt="" style="height:25px" />
+                            </h3>
+
+                            <p style="color: #ffffff !important"> Boat Island VR (BIVR), is a metaverse community for
+                                BOATS and
+                                ISLANDERS. The first multiplayer
+                                virtual reality platform for creators.
+                                We are building a meta and virtual space where ISLANDERS (Fans) can visit, connect with
+                                each other and
+                                enjoy
+                                exclusive content and entertainment from different BOATS (creators) around the world.
+                                Our platform is free for our BOAT ISLAND members, others can connect by purchasing a
+                                token for access.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex below-section justify-content-between align-items-center pt-4 mt-5">
+                    <div class="columns text-lg-left text-center">
+                        <p title="Designed by Potter Inc&trade;" style="color: #ffffff">&copy; 2022 The Boat Island. All
+                            rights
+                            reserved
+                        </p>
+                    </div>
+                    <div class="columns-2 mt-lg-0 mt-3">
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/BoatIsland" target="_blank"><span
+                                        class="fa fa-facebook" aria-hidden="true"></span></a>
+                            </li>
+                            <li><a href="https://instagram.com/boatislandvr?igshid=YmMyMTA2M2Y=" target="_blank"><span
+                                        class="fa fa-instagram" aria-hidden="true"></span></a>
+                            </li>
+                            <li><a href="https://twitter.com/BoatIslandVr?t=4gl6FXBUVNQ5PS9kBvTP7w&s=09"
+                                    target="_blank"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+                            </li>
+                            <li><a href="https://youtu.be/yRh7N-CluiM" target="_blank"><span class="fa fa-youtube"
+                                        aria-hidden="true"></span></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/company/boatisland/" target="_blank"><span
+                                        class="fa fa-linkedin" aria-hidden="true"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <!-- move top -->
-        <button onclick="topFunction()" id="movetop" title="Go to top">
-          <span class="fa fa-angle-up"></span>
-        </button>
-        <script>
-          // When the user scrolls down 20px from the top of the document, show the button
-          window.onscroll = function () {
-            scrollFunction()
-          };
-  
-          function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-              document.getElementById("movetop").style.display = "block";
-            } else {
-              document.getElementById("movetop").style.display = "none";
-            }
-          }
-  
-          // When the user clicks on the button, scroll to the top of the document
-          function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-          }
-        </script>
-        <!-- //move top -->
-        <script>
-          $(function () {
-            $('.navbar-toggler').click(function () {
-              $('body').toggleClass('noscroll');
-            })
-          });
-        </script>
-      </section>
-      <!-- //footer -->
+            </div>
+            </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <img src="assets/images/bg.jpg" alt="P2W" />
+                        <a href="p2w.html" class="btn btn-light theme-button"
+                            style="line-height: 2rem; padding: 0 20px; border-radius: 40px; position: absolute; bottom: 20px; left:20px; color: #fff; background: #ab07d4; border: none;">
+                            Go To Event</a>
+                    </div>
+                </div>
+            </div>
+            <!-- move top -->
+            <button onclick="topFunction()" id="movetop" title="Go to top">
+                <span class="fa fa-angle-up"></span>
+            </button>
+            <script>
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function () {
+                    scrollFunction()
+                };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        document.getElementById("movetop").style.display = "block";
+                    } else {
+                        document.getElementById("movetop").style.display = "none";
+                    }
+                }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+            <!-- //move top -->
+        </section>
+        <!-- //footer -->
     </footer>
 
     <!-- jQuery JS -->
@@ -243,12 +241,21 @@
     <!-- jQuery JS -->
     <script src="assets/js/jquery-1.9.1.min.js"></script>
 
+    <script src="https://js.paystack.co/v2/inline.js"></script>
+    <script src="assets/js/pay.js"></script>
     <!-- Template JavaScript -->
     <script src="assets/js/owl.carousel.js"></script>
 
     <!-- responsive tabs -->
     <script src="assets/js/easyResponsiveTabs.js"></script>
 
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
     <!--Plug-in Initialisation-->
     <script type="text/javascript">
         $(document).ready(function () {
