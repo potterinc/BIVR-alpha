@@ -17,6 +17,7 @@ $('#pay').on('click', () => {
                 const paystack = new PaystackPop();
                 paystack.newTransaction({
                     key: 'pk_test_a78dba4dcc45f5f94f55f86170449cece2bc0bd8',
+                    // key:'pk_live_7d4d8f6a7703161ed8f58f3cf0f401d4ae4d7902 ',
                     email: Subscriber.email,
                     amount: Subscriber.price,
                     ref: 'BIVR' + Math.floor((Math.random() * 1000000000) + 1),
