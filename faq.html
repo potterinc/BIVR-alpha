@@ -453,6 +453,11 @@
             },
             complete: () => {
               if (Visitor.response.status == true) {
+              $('#firstname').val(null)
+              $('#lastname').val(null)
+              $('#email').val(null)
+              $('#telephone').val(null)
+              $('#message').val(null)
                 $('#notify').html(Visitor.response.message).addClass('alert alert-success')
                 $('#send').html('Send');
                 setTimeout(() => {
