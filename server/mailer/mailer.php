@@ -28,6 +28,8 @@ $mailer->Port       = 465;
 // Recipient
 $mailer->setFrom("support@bivr.io", 'CONTACT FORM');
 $mailer->addAddress("support@bivr.io");
+$mailer->addAddress("theboatisland@gmail.com");
+$mailer->addAddress("boatislandvr@gmail.com");
 
 // Validating the sender email address
 if ($mailer->addReplyTo($_REQUEST['email'], $_REQUEST['firstname'] . " " . $_REQUEST['lastname'])) {
