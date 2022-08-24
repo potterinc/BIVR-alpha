@@ -47,6 +47,7 @@ $('#pay').on('click', () => {
                     },
 
                     onSuccess: (tx) => {
+                        localStorage.setItem('txID') = tx.transaction;
                         $.ajax({
                             url: 'server/subscriber.php',
                             dataType: 'JSON',

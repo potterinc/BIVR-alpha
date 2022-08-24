@@ -3038,9 +3038,12 @@
   overflow: visible;
   clip: auto;
 }
-footer a, footer h3{
+
+footer a,
+footer h3 {
   color: #ffffff !important;
 }
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -3084,9 +3087,11 @@ footer a, footer h3{
 *::after {
   box-sizing: border-box;
 }
-.ml{
+
+.ml {
   margin: 5px;
 }
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -14278,7 +14283,11 @@ a.brand-logo img {
     font-size: 40px;
     line-height: 50px;
   }
-  .text-right{text-align: center !important}
+
+  .text-right {
+    text-align: center !important
+  }
+
   .header-section h2 {
     font-size: 40px;
     line-height: 50px;
@@ -14290,7 +14299,10 @@ a.brand-logo img {
     font-size: 32px;
     line-height: 42px;
   }
-  .text-right{text-align: center !important}
+
+  .text-right {
+    text-align: center !important
+  }
 
   .header-section h2 {
     font-size: 36px;
@@ -17932,9 +17944,26 @@ div#small-dialog iframe {
   }
 }
 
+@media (max-width: 390px) {
+  .apply {
+    right: 5px !important;
+  }
+}
+
 @media (max-width: 375px) {
   .w3l-contact .contact p {
     font-size: 15px;
+  }
+
+  .apply {
+    right: 0px !important;
+    font-size: small;
+  }
+}
+
+@media (max-width: 350px) {
+  .apply {
+    display: none !important;
   }
 }
 

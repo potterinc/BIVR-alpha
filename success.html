@@ -63,7 +63,8 @@
     <!-- contact breadcrumbs -->
     <nav id="breadcrumbs" class="breadcrumbs">
         <div class="container page-wrapper">
-            <a href="https://bivr.io">Home</a> » <a href="events.html" class="breadcrumb_last" aria-current="page">Events</a>
+            <a href="https://bivr.io">Home</a> » <a href="events.html" class="breadcrumb_last"
+                aria-current="page">Events</a>
             » <span class="breadcrumb_last" aria-current="page">Download Game</span>
         </div>
     </nav>
@@ -76,8 +77,8 @@
                 </div>
                 <img src="assets/images/s8.png" alt="resiser" class="img-fluid">
                 <h4 class="py-2">Your Payment Receipt has been sent to your email</h4>
-                <span class="text-info">NOTE: 
-                    <emp>Your payment reference from Paystack remains as your proof of payment and will be used as your 
+                <span class="text-info">NOTE:
+                    <emp>Your payment reference from Paystack remains as your proof of payment and will be used as your
                         Token ID to enter the BIVR Raffle challenge. Keep details private</emp>
                 </span>
             </div>
@@ -85,7 +86,8 @@
 
                 <a href="https://afrolife.club/BIVR/boat_island_vr.apk" class="btn btn-info theme-button"
                     download="BIVR">Click to Download BIVR
-                </a> <a href="https://bivr.io" class="btn btn-inline-primary theme-button text-capitalize">Go to Homepage
+                </a> <a href="https://bivr.io" class="btn btn-inline-primary theme-button text-capitalize">Go to
+                    Homepage
                 </a>
             </div>
         </section>
@@ -234,6 +236,14 @@
                 }
             });
         });
+    </script>
+    <script>
+        $(window).on('load', () => {
+            let txID = localStorage.getItem('txID');
+            if (!txID) {
+                $('html').load('failed.html')
+            }
+        })
     </script>
 
 
