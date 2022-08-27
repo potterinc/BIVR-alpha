@@ -14850,7 +14850,7 @@ nav ul li a:hover {
   background-size: cover;
   display: grid;
   align-items: center;
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 
 .w3l-index1 .content-left h3 {
@@ -15807,7 +15807,6 @@ h2.resp-accordion:first-child {
 
 .owl-carousel {
   width: 100%;
-  z-index: 1;
 }
 
 .owl-carousel .owl-stage {
@@ -15890,7 +15889,6 @@ h2.resp-accordion:first-child {
   -ms-user-select: none;
   user-select: none;
 }
-
 .owl-carousel.owl-grab {
   cursor: move;
   cursor: -webkit-grab;
@@ -17966,5 +17964,8 @@ div#small-dialog iframe {
     display: none !important;
   }
 }
-
+.logo-text{
+  height:25px;
+  filter: invert(1);
+}
 /*# sourceMappingURL=style-starter.css.map */
