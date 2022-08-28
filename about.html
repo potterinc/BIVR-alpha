@@ -70,10 +70,10 @@
           <div class="header-section mb-5 text-center">
           </div>
           <div class="cwp4-two row">
-            <div class="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
+            <div class="cwp4-image col-lg-6 pl-lg-5 mt-lg-0">
               <img src="assets/images/about1.jpg" class="img-curve img-fluid" alt="" />
             </div>
-            <div class="cwp4-text col-lg-6">
+            <div class="cwp4-text col-lg-6 mt-5">
               <h3>What Is BOAT ISLAND VR (BIVR)</h3>
               <p> BOAT ISLAND VR (BIVR), is a Metaverse community for BOATS and ISLANDERS. The first multiplayer
                 Virtual Reality platform for Creators.
@@ -244,17 +244,21 @@
       </div>
       </div>
       <!-- Modal -->
-      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+      <div class="modal fade" id="exampleModalCente" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
+          
           <div class="modal-content">
+              <span class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </span>
             <img src="assets/images/bg.jpg" alt="P2W" />
-            <a href="p2w.html" class="btn btn-light theme-button"
-              style="line-height: 2rem; padding: 0 20px; border-radius: 40px; position: absolute; bottom: 20px; left:20px; color: #fff; background: #ab07d4; border: none;">
+            <a href="p2w.html" class="btn btn-light theme-button" style="line-height: 2rem; padding: 0 20px; border-radius: 40px; position: absolute; bottom: 20px; left:20px; color: #fff; background: #ab07d4; border: none;">
               Go To Event</a>
           </div>
         </div>
       </div>
+
       <!-- move top -->
       <button onclick="topFunction()" id="movetop" title="Go to top">
         <span class="fa fa-angle-up"></span>
@@ -366,7 +370,8 @@
   <!--  Bootstrap JS -->
   <script src="assets/js/bootstrap.min.js"></script>
   <script>
-    $('#exampleModalCenter').modal('show')
+    $(()=>$('#exampleModalCente').modal('show'))
+    
   </script>
 </body>
 

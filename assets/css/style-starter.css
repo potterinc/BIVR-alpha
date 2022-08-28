@@ -9198,13 +9198,17 @@ a.badge-dark.focus {
 }
 
 .close {
-  float: right;
+  /* float: right; */
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
-  color: #000;
+  margin: 5px;
+  position:absolute;
+  right:0;
+  color: #fff;
   text-shadow: 0 1px 0 #fff;
-  opacity: .5;
+  filter: blur(.5);
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {
@@ -14758,7 +14762,7 @@ nav ul li a:hover {
   header {
     height: auto;
     padding: 15px 0;
-    background-color: #dfc8e9;
+    /* background-color: #dfc8e9; */
   }
 
   .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -14801,9 +14805,9 @@ nav ul li a:hover {
 
   .navbar-toggler-icon.fa {
     line-height: 1.2em;
-    color: #fff;
+    /* color: #fff; */
     line-height: 34px;
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
     border-radius: 5px;
   }
 
