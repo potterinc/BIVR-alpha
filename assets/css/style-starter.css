@@ -17972,4 +17972,17 @@ div#small-dialog iframe {
   height:25px;
   filter: invert(1);
 }
+.time{
+  position: fixed;
+  width: 70%;
+  right: 15%;
+  left: 15%;
+  bottom: 5px;
+  z-index: 98;
+  padding: 5px;
+  background: var(--gray-dark);
+  color: var(--white);
+  opacity: .8;
+  box-shadow: 0 2px 2px var(--dark);
+}
 /*# sourceMappingURL=style-starter.css.map */

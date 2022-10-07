@@ -236,6 +236,7 @@
             <!-- //move top -->
         </section>
         <!-- //footer -->
+        <div id="timer" class="time text-center"></div>
     </footer>
 
     <!-- jQuery JS -->
@@ -327,6 +328,10 @@
             $('#price').html(result);
         }
         buyShells(parseInt($('#token').val()));
+    </script>
+    <script src="script/script.js"></script>
+    <script>
+        $('#timer').load('script/script.html');
     </script>
 </body>
 
